@@ -41,13 +41,36 @@ This repository demonstrates various use cases and examples for managing user ac
 2. Configuring Account Lockout Policies
 - Open the Group Policy Management Console (GPMC) and configure the Account Lockout Policy to lock the account after 5 failed login attempts.
 - Test by attempting 6 failed logins with a bad password.
+
+<img width="448" alt="Screenshot 2025-01-23 at 6 43 36 PM" src="https://github.com/user-attachments/assets/0d424068-0be0-4580-be80-cc4abc554b0e" />
+<img width="395" alt="Screenshot 2025-01-23 at 6 45 12 PM" src="https://github.com/user-attachments/assets/f105c6d8-ae9c-4703-82d6-1704a238d0be" />
+<img width="791" alt="Screenshot 2025-01-23 at 6 45 33 PM" src="https://github.com/user-attachments/assets/32bc91e8-8b5f-4fbb-98a2-6ef4ea6ad1b1" />
+<img width="859" alt="Screenshot 2025-01-23 at 6 46 31 PM" src="https://github.com/user-attachments/assets/8e1203c0-dcf7-4c9a-b53a-89bbf340de0f" />
+<img width="436" alt="Screenshot 2025-01-23 at 6 47 23 PM" src="https://github.com/user-attachments/assets/9572d678-b0b3-433c-b281-fcb3735a1cbb" />
+
+
 3. Account Lockout Behavior
 - Observe that the account locks after the 5th failed attempt.
 - Unlock the account and reset the password for testing.
+
+<img width="527" alt="Screenshot 2025-01-23 at 6 47 37 PM" src="https://github.com/user-attachments/assets/1ab65701-9f50-43eb-b3fd-555272c876d7" />
+<img width="419" alt="Screenshot 2025-01-23 at 6 48 22 PM" src="https://github.com/user-attachments/assets/5e8c41e6-70cd-475a-86f4-ff9ad1967d42" />
+<img width="931" alt="Screenshot 2025-01-23 at 6 48 37 PM" src="https://github.com/user-attachments/assets/8ced3e12-bd2c-4a9f-ab8f-54e3f632ea6f" />
+<img width="417" alt="Screenshot 2025-01-23 at 6 48 45 PM" src="https://github.com/user-attachments/assets/7daf1604-4a14-4659-bb9d-5d195026e2cc" />
+<img width="425" alt="Screenshot 2025-01-23 at 6 49 20 PM" src="https://github.com/user-attachments/assets/00a1e4a6-5db1-49d4-b26b-42242882fce2" />
+<img width="500" alt="Screenshot 2025-01-23 at 6 51 14 PM" src="https://github.com/user-attachments/assets/d0d1b6bf-c632-4152-a644-ddb9e9fcd43b" />
+<img width="387" alt="Screenshot 2025-01-23 at 6 51 20 PM" src="https://github.com/user-attachments/assets/4d8c71f1-3a68-4324-b062-68393155958a" />
+
+
 4. Enabling and Disabling Accounts
 - Disable a user account in Active Directory.
 - Attempt to log in with the disabled account and observe the error message.
 - Re-enable the account and attempt to log in again.
+
+<img width="503" alt="Screenshot 2025-01-23 at 6 51 51 PM" src="https://github.com/user-attachments/assets/45750d32-a894-49a1-945e-b9a65adeff5e" />
+<img width="543" alt="Screenshot 2025-01-23 at 6 52 54 PM" src="https://github.com/user-attachments/assets/49d4c42e-20c9-4d65-bf21-5663d64f6da7" />
+
+  
 5. Observing Logs
 - View the security logs on the Domain Controller to see the details of login attempts and account lockouts.
 - Check the client machine’s event logs for any relevant information regarding login failures.
