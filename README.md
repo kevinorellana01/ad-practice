@@ -35,10 +35,13 @@ This repository demonstrates various use cases and examples for managing user ac
 
 <h2>Instructions</h2>
 
-1. Getting Started
+**1. Getting Started**
+
 - Log in to the Domain Controller (dc-1) using an administrator account.
 - Ensure you have a user account created in Active Directory for testing purposes.
-2. Configuring Account Lockout Policies
+
+**2. Configuring Account Lockout Policies**
+
 - Open the Group Policy Management Console (GPMC) and configure the Account Lockout Policy to lock the account after 5 failed login attempts.
 - Test by attempting 6 failed logins with a bad password.
 
@@ -49,7 +52,8 @@ This repository demonstrates various use cases and examples for managing user ac
 <img width="436" alt="Screenshot 2025-01-23 at 6 47 23 PM" src="https://github.com/user-attachments/assets/9572d678-b0b3-433c-b281-fcb3735a1cbb" />
 
 
-3. Account Lockout Behavior
+**3. Account Lockout Behavior** 
+
 - Observe that the account locks after the 5th failed attempt.
 - Unlock the account and reset the password for testing.
 
@@ -62,7 +66,8 @@ This repository demonstrates various use cases and examples for managing user ac
 <img width="387" alt="Screenshot 2025-01-23 at 6 51 20 PM" src="https://github.com/user-attachments/assets/4d8c71f1-3a68-4324-b062-68393155958a" />
 
 
-4. Enabling and Disabling Accounts
+**4. Enabling and Disabling Accounts**
+
 - Disable a user account in Active Directory.
 - Attempt to log in with the disabled account and observe the error message.
 - Re-enable the account and attempt to log in again.
@@ -73,7 +78,8 @@ This repository demonstrates various use cases and examples for managing user ac
 
 
   
-5. Observing Logs
+**5. Observing Logs**
+
 - View the security logs on the Domain Controller to see the details of login attempts and account lockouts.
 - Check the client machine’s event logs for any relevant information regarding login failures.
 
