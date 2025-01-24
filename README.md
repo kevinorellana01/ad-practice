@@ -68,12 +68,17 @@ This repository demonstrates various use cases and examples for managing user ac
 - Re-enable the account and attempt to log in again.
 
 <img width="503" alt="Screenshot 2025-01-23 at 6 51 51 PM" src="https://github.com/user-attachments/assets/45750d32-a894-49a1-945e-b9a65adeff5e" />
+<img width="392" alt="Screenshot 2025-01-23 at 7 41 45 PM" src="https://github.com/user-attachments/assets/a0a34457-eabc-463c-be6c-5b3d01e7ca2d" />
 <img width="543" alt="Screenshot 2025-01-23 at 6 52 54 PM" src="https://github.com/user-attachments/assets/49d4c42e-20c9-4d65-bf21-5663d64f6da7" />
+
 
   
 5. Observing Logs
 - View the security logs on the Domain Controller to see the details of login attempts and account lockouts.
 - Check the client machine’s event logs for any relevant information regarding login failures.
+
+<img width="432" alt="Screenshot 2025-01-23 at 7 42 02 PM" src="https://github.com/user-attachments/assets/963d4b20-c8b6-45da-9095-8abe250660c2" />
+<img width="1402" alt="Screenshot 2025-01-23 at 7 42 24 PM" src="https://github.com/user-attachments/assets/bca6d2a0-a992-4414-8e3d-54c34ecea5f2" />
 
 <h2>Purpose</h2>
 The purpose of this repository is to provide hands-on examples and insights into managing Active Directory accounts. It highlights practical scenarios that demonstrate how to configure policies, manage account states, and troubleshoot login issues using various tools and technologies. This repository is designed to help IT professionals and system administrators gain a deeper understanding of Active Directory management.
